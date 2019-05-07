@@ -5,7 +5,7 @@ Feature: login test
 Background: 
 	Given user navigate to http://www.gcreddy.com/project1/login.php 
 	
-# Data driven Without examples keywords 
+# Data driven Without examples keywords ----------
 Scenario: Verify that user is able to login to application successfully 
 
 	When  user enter emailid "Rahul1993@gmail.com" and password "Admin@123" 
