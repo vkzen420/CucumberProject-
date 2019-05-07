@@ -1,0 +1,500 @@
+# Created at 2019-04-21T20:52:20.555
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-04-21T20:52:21.107
+Unexpected IOException: 5,1,Scenario: Verify that user is able to login to application successfully with diff data driven methods,Given user navigate to http://www.gcreddy.com/project1/login.php(Scenario: Verify that user is able to login to application successfully with diff data driven methods),null,null,null
+
+
+# Created at 2019-04-21T20:52:21.112
+Unexpected IOException: 6,1,Scenario: Verify that user is able to login to application successfully with diff data driven methods,Given user navigate to http://www.gcreddy.com/project1/login.php(Scenario: Verify that user is able to login to application successfully with diff data driven methods),null,null,null
+
+
+# Created at 2019-04-21T20:52:21.135
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:21.139
+Unexpected IOException with stream:   Background:                                                        # login.feature:5
+
+
+# Created at 2019-04-21T20:52:21.145
+Unexpected IOException with stream:     Given user navigate to http://www.gcreddy.com/project1/login.php # LoginStepDefination.user_navigate_to_http_www_gcrit_com_build_login_php(String)
+
+
+# Created at 2019-04-21T20:52:21.152
+Unexpected IOException with stream: [{emailid=Rahul1993@gmail.com, Password=Admin@123}]
+
+# Created at 2019-04-21T20:52:21.157
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:21.355
+Unexpected IOException: 5,1,Scenario: Verify that user is able to login to application successfully with diff data driven methods,When user enter emailid1 and password1(Scenario: Verify that user is able to login to application successfully with diff data driven methods),null,null,null
+
+
+# Created at 2019-04-21T20:52:21.374
+Unexpected IOException: 6,1,Scenario: Verify that user is able to login to application successfully with diff data driven methods,When user enter emailid1 and password1(Scenario: Verify that user is able to login to application successfully with diff data driven methods),null,null,null
+
+
+# Created at 2019-04-21T20:52:26.809
+Unexpected IOException: 5,1,Scenario: Verify that user is able to login to application successfully with diff data driven methods,And user clicks on sign in button(Scenario: Verify that user is able to login to application successfully with diff data driven methods),null,null,null
+
+
+# Created at 2019-04-21T20:52:26.814
+Unexpected IOException: 6,1,Scenario: Verify that user is able to login to application successfully with diff data driven methods,And user clicks on sign in button(Scenario: Verify that user is able to login to application successfully with diff data driven methods),null,null,null
+
+
+# Created at 2019-04-21T20:52:26.849
+Unexpected IOException with stream: Welcome to GCR Shop
+
+
+# Created at 2019-04-21T20:52:29.855
+Unexpected IOException with stream: Login Successful to GCR Shop
+
+
+# Created at 2019-04-21T20:52:29.861
+Unexpected IOException: 5,1,Scenario: Verify that user is able to login to application successfully with diff data driven methods,Then User is on Home Page(Scenario: Verify that user is able to login to application successfully with diff data driven methods),null,null,null
+
+
+# Created at 2019-04-21T20:52:29.867
+Unexpected IOException: 6,1,Scenario: Verify that user is able to login to application successfully with diff data driven methods,Then User is on Home Page(Scenario: Verify that user is able to login to application successfully with diff data driven methods),null,null,null
+
+
+# Created at 2019-04-21T20:52:31.883
+Unexpected IOException: 5,1,Scenario: Verify that user is able to login to application successfully with diff data driven methods,When User close the browser(Scenario: Verify that user is able to login to application successfully with diff data driven methods),null,null,null
+
+
+# Created at 2019-04-21T20:52:31.896
+Unexpected IOException: 7,1,Scenario: Verify that user is able to login to application successfully with diff data driven methods,When User close the browser(Scenario: Verify that user is able to login to application successfully with diff data driven methods),null,chrome not reachable\000A  (Session info: chrome=73.0.3683.103)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.5'\002C revision: 'd54ebd709a'\002C time: '2018-11-06T11:42:16'\000ASystem info: host: 'LAPTOP-PNMKV3LP'\002C ip: '192.168.1.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_162'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005Cvkjai\005CAppData\005CLoca...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 73.0.3683.103\002C webStorageEnabled: true}\000ASession ID: 50950fb2fee5b329d29f656ddacdaa96,null,chrome not reachable\000A  (Session info: chrome=73.0.3683.103)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.5'\002C revision: 'd54ebd709a'\002C time: '2018-11-06T11:42:16'\000ASystem info: host: 'LAPTOP-PNMKV3LP'\002C ip: '192.168.1.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_162'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005Cvkjai\005CAppData\005CLoca...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 73.0.3683.103\002C webStorageEnabled: true}\000ASession ID: 50950fb2fee5b329d29f656ddacdaa96,chrome not reachable\000A  (Session info: chrome=73.0.3683.103)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.5'\002C revision: 'd54ebd709a'\002C time: '2018-11-06T11:42:16'\000ASystem info: host: 'LAPTOP-PNMKV3LP'\002C ip: '192.168.1.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_162'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005Cvkjai\005CAppData\005CLoca...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 73.0.3683.103\002C webStorageEnabled: true}\000ASession ID: 50950fb2fee5b329d29f656ddacdaa96,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=73.0.3683.103)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.5'\002C revision: 'd54ebd709a'\002C time: '2018-11-06T11:42:16'\000ASystem info: host: 'LAPTOP-PNMKV3LP'\002C ip: '192.168.1.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_162'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005Cvkjai\005CAppData\005CLoca...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 73.0.3683.103\002C webStorageEnabled: true}\000ASession ID: 50950fb2fee5b329d29f656ddacdaa96\000A
+
+
+# Created at 2019-04-21T20:52:31.907
+Unexpected IOException: 7,1,Scenario: Verify that user is able to login to application successfully with diff data driven methods,Scenario: Verify that user is able to login to application successfully with diff data driven methods,null,chrome not reachable\000A  (Session info: chrome=73.0.3683.103)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.5'\002C revision: 'd54ebd709a'\002C time: '2018-11-06T11:42:16'\000ASystem info: host: 'LAPTOP-PNMKV3LP'\002C ip: '192.168.1.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_162'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005Cvkjai\005CAppData\005CLoca...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 73.0.3683.103\002C webStorageEnabled: true}\000ASession ID: 50950fb2fee5b329d29f656ddacdaa96,null,chrome not reachable\000A  (Session info: chrome=73.0.3683.103)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.5'\002C revision: 'd54ebd709a'\002C time: '2018-11-06T11:42:16'\000ASystem info: host: 'LAPTOP-PNMKV3LP'\002C ip: '192.168.1.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_162'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005Cvkjai\005CAppData\005CLoca...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 73.0.3683.103\002C webStorageEnabled: true}\000ASession ID: 50950fb2fee5b329d29f656ddacdaa96,chrome not reachable\000A  (Session info: chrome=73.0.3683.103)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.5'\002C revision: 'd54ebd709a'\002C time: '2018-11-06T11:42:16'\000ASystem info: host: 'LAPTOP-PNMKV3LP'\002C ip: '192.168.1.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_162'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005Cvkjai\005CAppData\005CLoca...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 73.0.3683.103\002C webStorageEnabled: true}\000ASession ID: 50950fb2fee5b329d29f656ddacdaa96,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=73.0.3683.103)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.5'\002C revision: 'd54ebd709a'\002C time: '2018-11-06T11:42:16'\000ASystem info: host: 'LAPTOP-PNMKV3LP'\002C ip: '192.168.1.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_162'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005Cvkjai\005CAppData\005CLoca...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 73.0.3683.103\002C webStorageEnabled: true}\000ASession ID: 50950fb2fee5b329d29f656ddacdaa96\000A
+
+
+# Created at 2019-04-21T20:52:31.914
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:31.919
+Unexpected IOException with stream:   # Data driven With using the Maps
+
+
+# Created at 2019-04-21T20:52:31.924
+Unexpected IOException with stream:   Scenario: Verify that user is able to login to application successfully with diff data driven methods # login.feature:43
+
+
+# Created at 2019-04-21T20:52:31.928
+Unexpected IOException with stream:     When user enter emailid1 and password1                                                              # LoginStepDefination.user_enter_emailid1_and_password1(DataTable)
+
+
+# Created at 2019-04-21T20:52:31.938
+Unexpected IOException with stream:     And user clicks on sign in button                                                                   # LoginStepDefination.user_clicks_on_sign_in_button()
+
+
+# Created at 2019-04-21T20:52:31.943
+Unexpected IOException with stream:     Then User is on Home Page                                                                           # LoginStepDefination.user_is_on_Home_Page()
+
+
+# Created at 2019-04-21T20:52:31.948
+Unexpected IOException with stream:     When User close the browser                                                                         # LoginStepDefination.user_close_the_browser()
+
+
+# Created at 2019-04-21T20:52:31.955
+Unexpected IOException with stream:       org.openqa.selenium.WebDriverException: chrome not reachable
+        (Session info: chrome=73.0.3683.103)
+        (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 0 milliseconds
+      Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+      System info: host: 'LAPTOP-PNMKV3LP', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\vkjai\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+      Session ID: 50950fb2fee5b329d29f656ddacdaa96
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+      	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+      	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+      	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+      	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+      	at StepDefination.LoginStepDefination.user_close_the_browser(LoginStepDefination.java:67)
+      	at ?.When User close the browser(login.feature:50)
+
+
+
+# Created at 2019-04-21T20:52:32.071
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.077
+Unexpected IOException with stream: Failed scenarios:
+
+
+# Created at 2019-04-21T20:52:32.086
+Unexpected IOException with stream: login.feature:28 
+
+# Created at 2019-04-21T20:52:32.092
+Unexpected IOException with stream: # Scenario Outline: : scenario description
+
+
+# Created at 2019-04-21T20:52:32.099
+Unexpected IOException with stream: login.feature:43 
+
+# Created at 2019-04-21T20:52:32.105
+Unexpected IOException with stream: # Scenario: Verify that user is able to login to application successfully with diff data driven methods
+
+
+# Created at 2019-04-21T20:52:32.109
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.115
+Unexpected IOException with stream: 4
+
+# Created at 2019-04-21T20:52:32.120
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2019-04-21T20:52:32.126
+Unexpected IOException with stream: 2 failed
+
+# Created at 2019-04-21T20:52:32.131
+Unexpected IOException with stream: , 
+
+# Created at 2019-04-21T20:52:32.136
+Unexpected IOException with stream: 2 passed
+
+# Created at 2019-04-21T20:52:32.142
+Unexpected IOException with stream: )
+
+
+# Created at 2019-04-21T20:52:32.147
+Unexpected IOException with stream: 20
+
+# Created at 2019-04-21T20:52:32.153
+Unexpected IOException with stream:  Steps (
+
+# Created at 2019-04-21T20:52:32.159
+Unexpected IOException with stream: 2 failed
+
+# Created at 2019-04-21T20:52:32.164
+Unexpected IOException with stream: , 
+
+# Created at 2019-04-21T20:52:32.170
+Unexpected IOException with stream: 1 skipped
+
+# Created at 2019-04-21T20:52:32.175
+Unexpected IOException with stream: , 
+
+# Created at 2019-04-21T20:52:32.180
+Unexpected IOException with stream: 17 passed
+
+# Created at 2019-04-21T20:52:32.186
+Unexpected IOException with stream: )
+
+
+# Created at 2019-04-21T20:52:32.191
+Unexpected IOException with stream: 1m
+
+# Created at 2019-04-21T20:52:32.196
+Unexpected IOException with stream: 22.226s
+
+
+# Created at 2019-04-21T20:52:32.202
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.207
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LAPTOP-PNMKV3LP', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\vkjai\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b28dc0dc4cc6429048409cc5ddaf6968
+*** Element info: {Using=xpath, value=//h1[text() = 'Welcome to GCR Shop']}
+
+# Created at 2019-04-21T20:52:32.213
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.217
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2019-04-21T20:52:32.222
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.229
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2019-04-21T20:52:32.233
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.238
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2019-04-21T20:52:32.243
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.249
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2019-04-21T20:52:32.254
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.258
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+
+# Created at 2019-04-21T20:52:32.263
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.268
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+
+# Created at 2019-04-21T20:52:32.272
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.277
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+
+# Created at 2019-04-21T20:52:32.281
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.286
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+
+# Created at 2019-04-21T20:52:32.290
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.295
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+
+# Created at 2019-04-21T20:52:32.300
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.304
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2019-04-21T20:52:32.309
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.314
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2019-04-21T20:52:32.319
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.324
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2019-04-21T20:52:32.329
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.334
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2019-04-21T20:52:32.339
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.344
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created at 2019-04-21T20:52:32.349
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.355
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2019-04-21T20:52:32.360
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.365
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2019-04-21T20:52:32.370
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.375
+Unexpected IOException with stream: 	at StepDefination.LoginStepDefination.user_is_on_Home_Page(LoginStepDefination.java:54)
+
+# Created at 2019-04-21T20:52:32.380
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.385
+Unexpected IOException with stream: 	at ?.Then User is on Home Page(login.feature:23)
+
+# Created at 2019-04-21T20:52:32.390
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.395
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.400
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LAPTOP-PNMKV3LP', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\vkjai\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 50950fb2fee5b329d29f656ddacdaa96
+
+# Created at 2019-04-21T20:52:32.405
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.410
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2019-04-21T20:52:32.415
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.420
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2019-04-21T20:52:32.425
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.430
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2019-04-21T20:52:32.435
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.439
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2019-04-21T20:52:32.444
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.449
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+
+# Created at 2019-04-21T20:52:32.453
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.458
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+
+# Created at 2019-04-21T20:52:32.462
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.467
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+
+# Created at 2019-04-21T20:52:32.472
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.476
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+
+# Created at 2019-04-21T20:52:32.481
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.485
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+
+# Created at 2019-04-21T20:52:32.490
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.495
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2019-04-21T20:52:32.501
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.507
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2019-04-21T20:52:32.513
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.518
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2019-04-21T20:52:32.524
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.529
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+
+# Created at 2019-04-21T20:52:32.534
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.539
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+
+# Created at 2019-04-21T20:52:32.544
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.549
+Unexpected IOException with stream: 	at StepDefination.LoginStepDefination.user_close_the_browser(LoginStepDefination.java:67)
+
+# Created at 2019-04-21T20:52:32.554
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.560
+Unexpected IOException with stream: 	at ?.When User close the browser(login.feature:50)
+
+# Created at 2019-04-21T20:52:32.565
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.572
+Unexpected IOException with stream: 
+
+
+# Created at 2019-04-21T20:52:32.577
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,TestRunner.TestRunner,null,null,null
+
+
