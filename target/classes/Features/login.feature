@@ -15,7 +15,8 @@ Scenario: Verify that user is able to login to application successfully
 	
 	
 	
-# Data driven With examples keywords-------	
+# Data driven With examples keywords----
+
 Scenario Outline: : scenario description 
 
 	When  user enter emailid "<emailid>" and password "<password>" 
